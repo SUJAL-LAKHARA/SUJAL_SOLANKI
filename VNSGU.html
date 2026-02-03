@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>VNSGU</title>
+
+    <link href="./VNSGU_files/style.css" rel="stylesheet" />
+    <link href="./VNSGU_files/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./VNSGU_files/bootstrap.min.css" />
+    <link rel="stylesheet" href="./VNSGU_files/font-awesome.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <!-- 🔽 YAHI CHANGE KIYA HAI -->
+    <form method="post" action="show.php" autocomplete="off">
+      <section class="register">
+        <img
+          src="./VNSGU_files/vnsgu-logo.png"
+          class="img-responsive center-block"
+          style="margin-top: 7%"
+        />
+
+        <div class="agile-its">
+          <div class="card-header">
+            <i class="fa fa-sign-in material-icons"></i>
+          </div>
+
+          <h2 style="text-align: right; padding-right: 6rem">Login Here</h2>
+
+          <div class="w3layouts">
+            <div class="photos-upload-view">
+              <div class="agileinfo-row">
+                <!-- USERNAME -->
+                <div class="ferry ferry-from">
+                  <label>Username</label>
+                  <input type="text" name="UserName" maxlength="50" required />
+                </div>
+
+                <!-- PASSWORD -->
+                <div class="ferry ferry-from">
+                  <label>Password</label>
+                  <input
+                    type="password"
+                    name="Password"
+                    maxlength="20"
+                    required
+                  />
+                </div>
+
+                <!-- CAPTCHA -->
+                <div class="ferry ferry-from">
+                  <label>Enter Captcha</label>
+
+                  <input
+                    type="text"
+                    name="txtLoginCaptcha"
+                    maxlength="5"
+                    required
+                  />
+
+                  <div style="margin-top: 5px">
+                    <img
+                      src="./VNSGU_files/CaptchaImage.axd"
+                      width="200"
+                      height="40"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <br />
+
+              <!-- REMEMBER + LOGIN -->
+              <div class="wthree-text">
+                <label class="anim">
+                  <input type="checkbox" name="cbRemember" />
+                  <span>Remember Me</span>
+                </label>
+
+                <div class="wthreesubmitaits">
+                  <a href="result.html" class="btn btn-primary">
+                    Login
+                  </a>
+                </div>                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p style="color: #ff9900; font-weight: bold">
+            © 2024 VNSGU. All Rights Reserved | Design by
+            <a
+              href="http://www.gipl.in/"
+              target="_blank"
+              style="color: #ff9900; font-weight: bold"
+            >
+              Guj Info Petro Limited
+            </a>
+          </p>
+        </div>
+      </section>
+    </form>
+  </body>
+</html>
